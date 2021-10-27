@@ -1,0 +1,15 @@
+CREATE TABLE QueryItem(
+questionId INTEGER NOT NULL PRIMARY KEY,
+questionTitle TEXT NOT NULL,
+upvoteScore INTEGER NOT NULL
+);
+
+insertQuery:
+INSERT INTO QueryItem(questionId,questionTitle,upvoteScore)
+VALUES (?,?,?);
+
+removeAllQueries:
+DELETE FROM QueryItem;
+
+selectAllQueries:
+SELECT * FROM QueryItem;

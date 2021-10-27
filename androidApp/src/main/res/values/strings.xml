@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="query_title">Query</string>
+    <string name="upvote_score">Score</string>
+    <string name="title_field">Q: %s</string>
+    <string name="score_field">S: %d</string>
+</resources>
